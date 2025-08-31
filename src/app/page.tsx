@@ -336,7 +336,7 @@ export default function Home() {
                   { src: "/icons/Python.png", name: "Python 3.x" },
                   { src: "/icons/Java.png", name: "Java" },
                   { src: "/icons/C.png", name: "C" },
-                  { src: "/icons/cpp_1.png", name: "C++" },
+                  { src: "/icons/cpp_1_cpp.png", name: "cpp" },
                   { src: "/icons/MySQL (1).png", name: "MySQL" },
                   { src: "/icons/SQLite.png", name: "SQLite" },
                   { src: "/icons/HTML5.png", name: "HTML5" },
