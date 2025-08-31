@@ -380,7 +380,7 @@ export default function Home() {
                   { src: "/icons/AWS.png", name: "AWS (EC2, S3, Lambda)" },
                   { src: "/icons/Docker.png", name: "Docker" },
                   { src: "/icons/Git.png", name: "Git" },
-                  { src: "/icons/GitHub.png", name: "GitHub" },
+                  { src: "/icons/GitHub_1.png", name: "GitHub" },
                   { src: "/icons/Jupyter.png", name: "Jupyter Notebook" },
                   { src: "/icons/tesseract_1.png", name: "Tesseract OCR" },
                   { src: "/icons/librosa.png", name: "Librosa" },
@@ -844,7 +844,7 @@ export default function Home() {
               className={styles.contactBtn}
             >
               <img
-                src="/icons/github.png"
+                src="/icons/GitHub_1.png"
                 alt="GitHub"
                 className={styles.contactIcon}
               />
