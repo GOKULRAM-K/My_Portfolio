@@ -336,7 +336,7 @@ export default function Home() {
                   { src: "/icons/Python.png", name: "Python 3.x" },
                   { src: "/icons/Java.png", name: "Java" },
                   { src: "/icons/C.png", name: "C" },
-                  { src: "/icons/C++ (CPlusPlus).png", name: "C++" },
+                  { src: "/icons/cpp_1.png", name: "C++" },
                   { src: "/icons/MySQL (1).png", name: "MySQL" },
                   { src: "/icons/SQLite.png", name: "SQLite" },
                   { src: "/icons/HTML5.png", name: "HTML5" },
@@ -357,7 +357,7 @@ export default function Home() {
                   { src: "/icons/Keras.png", name: "Keras" },
                   { src: "/icons/scikit-learn.png", name: "Scikit-learn" },
                   { src: "/icons/Pandas.png", name: "Pandas" },
-                  { src: "/icons/NumPy.png", name: "NumPy" },
+                  { src: "/icons/NumPy_1.png", name: "NumPy" },
                   {
                     src: "/icons/hf-logo.png",
                     name: "Hugging Face Transformers",
