@@ -19,11 +19,11 @@ export default function Home() {
             <span className={styles.typing}>
               <Typewriter
                 words={[
-                  "Hi, I'm Gokul Ram",
+                  "Hi, I'm Gokul Ram K",
                   "हाय, मैं गोकुल राम हूँ",
                   "こんにちは、ゴクル・ラムです",
                   "नमः, अहं गोकुल रामः अस्मि",
-                  "Hola, soy Gokul Ram",
+                  "Hola, soy Gokul Ram K",
                   "வணக்கம், நான் கோகுல் ராம்",
                 ]}
                 loop={true}
@@ -52,8 +52,12 @@ export default function Home() {
           </p>
 
           <div className={styles.heroButtons}>
-            <a href="/GokulRam_CV.pdf" className={styles.button}>
-              Download CV
+            <a
+              href="/GokulRamK_Resume.pdf"
+              className={styles.button}
+              download="GokulRamK_Resume.pdf"
+            >
+              Download Resume
             </a>
             <a href="#contact" className={styles.buttonSecondary}>
               Hire Me
