@@ -357,7 +357,7 @@ export default function Home() {
                   { src: "/icons/Keras.png", name: "Keras" },
                   { src: "/icons/scikit-learn.png", name: "Scikit-learn" },
                   { src: "/icons/Pandas.png", name: "Pandas" },
-                  { src: "/icons/Numpy.png", name: "NumPy" },
+                  { src: "/icons/NumPy.png", name: "NumPy" },
                   {
                     src: "/icons/hf-logo.png",
                     name: "Hugging Face Transformers",
