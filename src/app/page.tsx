@@ -66,8 +66,6 @@ export default function Home() {
         </section>
 
         {/* About */}
-
-        {/* About */}
         <motion.section
           id="about"
           className={`${styles.section} ${styles.timelineSection}`}
@@ -314,6 +312,54 @@ export default function Home() {
               <li>
                 Improved candidate filtering & ranking features, reducing manual
                 screening effort by 95%.
+              </li>
+            </ul>
+          </div>
+          <div className={styles.workExperienceCard}>
+            <div className={styles.workExperienceHeader}>
+              <img
+                src="/icons/vit.jpeg"
+                alt="VIT Chennai"
+                className={styles.workExperienceLogo}
+              />
+              <div>
+                <h3 className={styles.workExperienceRole}>
+                  Summer Research Intern
+                </h3>
+                <p className={styles.workExperienceCompany}>
+                  VIT Chennai · Internship
+                </p>
+                <p className={styles.workExperienceDate}>
+                  May 2025 – Jul 2025 ·{" "}
+                  <span className={styles.workExperienceLocation}>
+                    Chennai, India (Hybrid)
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <p className={styles.workExperienceSummary}>
+              Worked on a speech emotion recognition system for remote learning,
+              focusing on cross-corpus generalization, noise robustness, and
+              lightweight deployment.
+            </p>
+
+            <ul className={styles.workExperienceHighlights}>
+              <li>
+                Integrated benchmark datasets (RAVDESS, CREMA-D, TESS, SAVEE)
+                into a unified seven-emotion corpus.
+              </li>
+              <li>
+                Designed a 1D CNN (~7.2M params, ~82MB) optimized for real-time
+                inference with low memory footprint.
+              </li>
+              <li>
+                Applied augmentation (Gaussian noise, pitch shifting) to improve
+                noise resilience in real-world audio.
+              </li>
+              <li>
+                Achieved +5% improvement in cross-corpus accuracy via
+                fine-tuning, enabling privacy-friendly e-learning use cases.
               </li>
             </ul>
           </div>
