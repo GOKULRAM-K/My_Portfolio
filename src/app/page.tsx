@@ -774,6 +774,24 @@ export default function Home() {
                 ],
                 github: "https://github.com/GOKULRAM-K/AgroAI",
               },
+              {
+                title: "Smart Phase Balancing System (SIH 2025)",
+                date: "Aug 2024 – Dec 2024",
+                domains: ["IoT", "Embedded Systems", "Smart Grid", "Security"],
+                highlights: [
+                  "National Finalist (PS: 25064) & Top 30 Hardware Team at VIT Chennai.",
+                  "Engineered a self-healing Hybrid IoT grid using Raspberry Pi, LoRa, and Kafka.",
+                  "Implemented end-to-end TLS encryption and real-time dashboard visualization.",
+                ],
+                tech: [
+                  "/icons/Python.png",
+                  "/icons/React.png", // Ensure you have this icon or change it
+                  "/icons/r_pi.png", // Ensure you have this icon or change it
+                  "/icons/Docker.png", // Ensure you have this icon or change it
+                ],
+                github:
+                  "https://github.com/GOKULRAM-K/SmartPhase---Edge-Intelligent-Framework-for-Safe-and-Efficient-Power-Grid", // Update this link!
+              },
             ].map((proj, i) => (
               <motion.div
                 key={i}
