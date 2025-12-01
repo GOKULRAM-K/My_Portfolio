@@ -776,7 +776,7 @@ export default function Home() {
               },
               {
                 title: "Smart Phase Balancing System (SIH 2025)",
-                date: "Aug 2024 – Dec 2024",
+                date: "Sep 2025 – Nov 2025",
                 domains: ["IoT", "Embedded Systems", "Smart Grid", "Security"],
                 highlights: [
                   "National Finalist (PS: 25064) & Top 30 Hardware Team at VIT Chennai.",
